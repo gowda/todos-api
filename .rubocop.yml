@@ -74,3 +74,6 @@ Rails/WhereNot: # (new in 2.8)
 # custom config
 Style/Documentation:
   Enabled: false
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*_spec.rb'
